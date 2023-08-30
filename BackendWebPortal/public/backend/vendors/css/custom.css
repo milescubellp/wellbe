@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar .navbar-brand-wrapper .navbar-brand-inner-wrapper .navbar-brand img {
+  width: calc(257px - 150px);
+  max-width: 100%;
+  height: 54px;
+  margin: auto;
+  vertical-align: middle;
+  object-fit: contain;
+}
+
+.sidebar .nav:not(.sub-menu) > .nav-item {
+  background: #fff;
+}
+
+.sidebar .nav.sub-menu {
+  list-style: outside;
+}
+.sidebar .nav.sub-menu .nav-item::before {
+  display: none;
+}
+
+.table thead th {
+  border: 1px solid #dee2e6;
+  font-weight: 600;
+  font-size: 14px;
+}
+.table td {
+  border: 1px solid #dee2e6;
+  background-color: #fff;
+ font-size: 14px;
+}
+
+select.form-control, .dataTables_wrapper select {
+    border: 1px solid #dee2e6;
+   
+}
+
+.table > :not(:last-child) > :last-child > *,
+.jsgrid .jsgrid-table > :not(:last-child) > :last-child > * {
+  border-bottom-color: #dee2e6;
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+  line-height: 1;
+  padding: 14px 20px;
+}
+.btn,
+.btn-success,
+.btn-danger {
+  color: #fff;
+}
+.form-control {
+  border: 1px solid #dee2e6;
+}
+
+.btns-grp .btn {
+  font-size: 13px;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.card .card-body {
+  font-size: 15px;
+}
+.btn-blue {
+  background: #2563eb;
+  border: 0px;
+  box-shadow: none;
+}
+.btn-blue:hover {
+  background: #2563eb;
+  border: 0px;
+}
+
+.upload-btn {
+  display: flex ;
+  align-items: center;
+  justify-content: center;
+  height: 33px;
+  font-size: 13px;
+}
+
+.modal .btn{
+  font-size: 13px;
+  padding: 10px 20px;
+}
